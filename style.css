@@ -1,0 +1,19 @@
+/* *{
+    background-color: blue;
+} */
+h1{
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+img{
+    border: 10%;
+    padding-top: 10%;
+    padding-left: 50%;
+
+}
+div{
+    background-color: black;
+    color: aliceblue;
+}
