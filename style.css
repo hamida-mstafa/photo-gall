@@ -1,19 +1,59 @@
-body{
-    background-color: blue;
-}
-h1{
-    color: brown;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-}
-img{
-    border: 10%;
-    padding-top: 10%;
-    padding-left: 50%;
+/*the nav bar styles */
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
 
 }
-div{
-    background-color: black;
-    color: aliceblue;
+.navbar li{
+    display: inline;
+
 }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.home{
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+
+}
+section{
+    display: flex;
+    justify-content:center;
+}
+.footer{
+    text-align: center;
+}
+a img{
+    float: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+p{
+    text-align: end;
+}
+table{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+   tr{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+   td{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
